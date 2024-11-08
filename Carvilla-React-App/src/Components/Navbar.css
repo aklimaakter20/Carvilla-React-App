@@ -1,0 +1,67 @@
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url(../assets/images/welcome-hero/welcome-banner.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+}
+.layer{
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    /* z-index: -1; */
+
+   
+}
+.navbar{
+    /* background-color: #000000; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+   
+}
+.logo{
+    font-size: 18px;
+    font-family: ufina, serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.nav-links ul{
+    display: flex;
+    
+}
+.nav-links ul li{
+    list-style: none;
+    padding: 0 25px;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.2s ease-in;
+    text-transform: uppercase;
+    
+
+}
+.nav-links ul li a:hover{
+    color: #4E4FFA;
+}
+.nav-links ul li a.active{
+    color: #4E4FFA;
+}
