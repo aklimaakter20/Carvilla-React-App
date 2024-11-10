@@ -4,7 +4,7 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.navbar-section{
     background-image: url(../assets/images/welcome-hero/welcome-banner.jpg);
     height: 1000px;
     background-position: center;
@@ -66,17 +66,17 @@ body{
 .nav-links ul li a.active{
     color: #4E4FFA;
 }
-.container-des{
+.navbar-section-des{
     text-align: center;
     margin-top: 150px;
     color: white;
     z-index: -10;
 }
-.container-des h1{
+.navbar-section h1{
     font-size: 40px;
     text-transform: uppercase;
 }
-.container-des p{
+.navbar-section p{
     margin-top: 50px;
     font-size: 20px;
     line-height: 28px;

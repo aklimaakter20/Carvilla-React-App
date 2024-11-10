@@ -4,7 +4,8 @@ import '../assets/images/welcome-hero/welcome-banner.jpg'
 import './Card'
 function Navbar() {
   return (
-    <div className='container'>
+    <div className="container">
+          <div className='navbar-section'>
         <div className="layer"></div>
       <nav>
         <div className="navbar">
@@ -23,7 +24,7 @@ function Navbar() {
             </div>
         </div>
       </nav>
-      <div className="container-des">
+      <div className="navbar-section-des">
         <h1>get your desired car in resonable price</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod <br /> tempor incididunt ut labore et dolore magna aliqua.</p>
         <button className='btn'>Contact Us</button>
@@ -103,6 +104,8 @@ function Navbar() {
    
       
     </div>
+    </div>
+  
  
   )
 }
