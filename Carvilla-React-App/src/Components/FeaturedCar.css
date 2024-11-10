@@ -1,46 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .FeaturedCar-section{
-    margin: 100px auto;
+    margin: 100px 40px;
     text-align: center;
+
 }
 .FeaturedCar-section h4{
-   font-size: 20px;
+   font-size: 18px;
    text-transform: capitalize;
    color: #8C93A1;
+   font-weight: 500;
+   margin-bottom: 20px;
 }
 .FeaturedCar-section h1{
     font-size: 40px;
     text-transform: capitalize;
     color: #4F5561;
+    font-weight: 500;
 
 }
-.cars-info{
-    width: 100%;
-    margin-top: 100px;
-}
-.car-info{
-    width: 24%;
-}
-.img{
-    border: 1px solid #ddd;
-    
-    padding: 90px 20px 0px;
-    
-}
-.img pre{
-    font-size: 18px;
-    border-top: 1px solid #ddd;
-    color: #8C93A1;
-    padding: 20px 10px;
-   
-}
-.info h4{
-    color: #4F5561;
-    font-size: 18px;
-}
-.info span{
-    font-size: 16px;
-    color: #4F5561;
-}
-.info p{
-    font-size: 15px;
+.car-row1, .car-row2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
