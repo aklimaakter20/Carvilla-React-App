@@ -1,46 +1,54 @@
-.cards{
+.cards {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 100px;
+    margin-top: 220px;
 }
-.card{
+
+.card {
     /* width: 25%; */
     text-align: center;
     padding: 70px 30px;
     border: 1px solid #ddd;
     transition: 0.5s;
     border-radius: 10px;
-    
+
 }
-.card:hover{
+
+.card:hover {
     background-color: #0102FA;
     color: white;
 }
-.card:hover .card-title{
+
+.card:hover .card-title {
     color: white;
 }
-.card:hover .card-p{
+
+.card:hover .card-p {
     color: white;
 }
-.card:hover .line{
+
+.card:hover .line {
     border-bottom: 4px solid #fff;
 }
-.card-title{
+
+.card-title {
     color: #4F5561;
     font-size: 22px;
     margin-top: 40px;
 }
-.card-p{
+
+.card-p {
     font-size: 20px;
     color: #8C93A1;
     line-height: 30px;
     margin-top: 30px;
 }
-.line{
+
+.line {
     border-bottom: 4px solid #0102FA;
     width: 40px;
     margin: 0px auto;
     margin-top: 35px;
-   
+
 }

@@ -3,47 +3,56 @@
 } */
 
 
-.checkout-section{
+.checkout-section {
     margin: 100px auto;
     text-align: center;
 }
-.checkout-section h4{
-   font-size: 20px;
-   text-transform: capitalize;
-   color: #8C93A1;
+
+.checkout-section h4 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #8C93A1;
 }
-.checkout-section h1{
+
+.checkout-section h1 {
     font-size: 40px;
     text-transform: capitalize;
     color: #4F5561;
 
 }
 
-.line{
-        border-bottom: 2px solid #0102FA;
-        width: 100px;
-        margin: 0px auto;
-        margin: 42px auto;
-       
+.line {
+    border-bottom: 2px solid #0102FA;
+    width: 100px;
+    margin: 0px auto;
+    margin: 42px auto;
+
 }
-.new-car-info{
+
+.new-car-info {
+    margin: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.car-info{
+
+.car-info {
     padding: 0 40px;
 }
-.car-info h1{
+
+.car-info h1 {
     color: #4F5561;
 
 }
-.car-info p{
+
+.car-info p {
     font-size: 18px;
     line-height: 26px;
     color: #8C93A1;
 
 }
-.checkout-section.btn{
+
+.checkout-section.btn {
     padding-bottom: 50px;
 }
